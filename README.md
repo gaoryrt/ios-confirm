@@ -1,5 +1,6 @@
 # ios-confirm
 > An ios-like confirm based on Promise.
+
 ![](./example/demo.gif)
 
 ## install
