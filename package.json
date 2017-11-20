@@ -2,17 +2,22 @@
   "name": "ios-confirm",
   "version": "1.0.2",
   "description": "a ios-like confirm",
-  "main": "confirm.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaoryrt/ios-confirm"
   },
+  "author": {
+    "name": "gaoryrt",
+    "email": "gaoryrt@gmail.com",
+    "url": "gaoryrt.com"
+  },
+  "main": "confirm.js",
   "keywords": [
     "ios",
     "confirm",
     "promise"
   ],
-  "author": "gaoryrt",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "amfe-flexible": "^2.2.1",
     "promise-polyfill": "^6.0.2"
