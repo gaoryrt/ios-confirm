@@ -1,0 +1,8 @@
+button {
+  font-size: .427rem/* 32px */;
+  border: .013rem/* 1px */ solid #ccc;
+}
+
+.output {
+  font-size: .373rem/* 28px */;
+}

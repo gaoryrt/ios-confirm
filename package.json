@@ -1,0 +1,20 @@
+{
+  "name": "ios-confirm",
+  "version": "3.0.0",
+  "description": "a ios-like confirm",
+  "main": "confirm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ios",
+    "confirm",
+    "promise"
+  ],
+  "author": "gaoryrt",
+  "license": "ISC",
+  "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "promise-polyfill": "^6.0.2"
+  }
+}
