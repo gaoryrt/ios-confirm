@@ -1,6 +1,6 @@
 {
   "name": "ios-confirm",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "a ios-like confirm",
   "main": "confirm.js",
   "scripts": {
