@@ -6,11 +6,11 @@ const $ = elemStr => {
 }
 
 const confirmed = () => {
-  $('.output').innerText = 'you clicked yes' + new Date()
+  $('.output').innerText = '确定：' + new Date()
 }
 
 const cancled = () => {
-  $('.output').innerText = 'you clicked no' + new Date()
+  $('.output').innerText = '取消：' + new Date()
 }
 
 $('button').addEventListener('click', () => {
