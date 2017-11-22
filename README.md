@@ -25,6 +25,20 @@ import confirm from 'ios-confirm'
   })
 ```
 
+3.for more info to customize:
+```javascript
+  confirm('id', {
+    title: 'Confirm Your In-App Purchase',
+    subtitle: 'Do you want to buy one pack of 100 Bux for $0.69?',
+    cancle: 'Cancel',
+    confirm: 'Buy',
+  }).then(() => {
+    // confirmed
+  }, () => {
+    // cancled
+  })
+```
+
 ## todo
 - [x] i18n / customize
 - [x] decoupling
