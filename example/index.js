@@ -10,5 +10,14 @@ const log = logStr => () => {
 }
 
 $('button').addEventListener('click', () => {
-  confirm('test', 'content goes here').then(log('确定'), log('取消'))
+  confirm('pln', 'content goes here').then(log('YES'), log('cancle'))
+})
+
+$('.custom').addEventListener('click', () => {
+  confirm('cus', {
+    title: 'Confirm Your In-App Purchase',
+    subtitle: 'Do you want to buy one pack of 100 Bux for $0.69?',
+    cancle: 'Cancel',
+    confirm: 'Buy',
+  }).then(log('Buy'), log('Cancel'))
 })

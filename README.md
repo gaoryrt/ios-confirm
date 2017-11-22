@@ -26,8 +26,8 @@ import confirm from 'ios-confirm'
 ```
 
 ## todo
-- [ ] i18n / customize
-- [ ] decoupling
+- [x] i18n / customize
+- [x] decoupling
 - [ ] CSS Modules
 
 ## contributing
