@@ -1,7 +1,7 @@
 {
   "name": "ios-confirm",
   "version": "1.0.4",
-  "description": "a ios-like confirm",
+  "description": "An ios-like confirm",
   "repository": {
     "type": "git",
     "url": "https://github.com/gaoryrt/ios-confirm"

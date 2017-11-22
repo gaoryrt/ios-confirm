@@ -1,16 +1,14 @@
 import './main.css'
-import confirm from '../confirm.js'
+import confirm from '../confirm'
 
-const $ = elemStr => {
-  return document.querySelector(elemStr)
-}
+const $ = elemStr => document.querySelector(elemStr)
 
 const confirmed = () => {
-  $('.output').innerText = '确定：' + new Date()
+  $('.output').innerText = `确定：${new Date()}`
 }
 
 const cancled = () => {
-  $('.output').innerText = '取消：' + new Date()
+  $('.output').innerText = `取消：${new Date()}`
 }
 
 $('button').addEventListener('click', () => {

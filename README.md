@@ -27,6 +27,7 @@ import confirm from 'ios-confirm'
 
 ## todo
 - [ ] i18n / customize
+- [ ] decoupling
 
 ## contributing
 1. Fork it!
