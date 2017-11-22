@@ -28,6 +28,7 @@ import confirm from 'ios-confirm'
 ## todo
 - [ ] i18n / customize
 - [ ] decoupling
+- [ ] CSS Modules
 
 ## contributing
 1. Fork it!

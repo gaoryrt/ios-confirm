@@ -3,14 +3,12 @@ import confirm from '../confirm'
 
 const $ = elemStr => document.querySelector(elemStr)
 
-const confirmed = () => {
-  $('.output').innerText = `确定：${new Date()}`
-}
-
-const cancled = () => {
-  $('.output').innerText = `取消：${new Date()}`
+const log = logStr => () => {
+  const newNode = document.createElement('p')
+  newNode.innerText = `${logStr}：${new Date()}`
+  $('.output').appendChild(newNode)
 }
 
 $('button').addEventListener('click', () => {
-  confirm('test', 'content goes here').then(confirmed, cancled)
+  confirm('test', 'content goes here').then(log('确定'), log('取消'))
 })
